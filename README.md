@@ -88,13 +88,3 @@ Automated eye screening tools
 Telemedicine platforms
 
 Early detection in rural and low-resource healthcare settings
-
-🔮 Future Enhancements
-
-Multi-class DR severity classification
-
-Integration with web or mobile applications
-
-Explainable AI (Grad-CAM visualization)
-
-Larger and more diverse datasets
