@@ -1,4 +1,5 @@
 # Diabetic-Retinopathy-Detection-using-Transfer-learning-using-Resnet50
+DATASET LINK FROM KAGGLE:https://www.kaggle.com/datasets/shajinrp/diabetic-retinopathy
 🩺 Diabetic Retinopathy Detection using Transfer Learning (ResNet-50)
 📌 Project Overview
 
