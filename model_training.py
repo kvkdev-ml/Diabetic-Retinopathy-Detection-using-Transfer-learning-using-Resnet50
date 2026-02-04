@@ -6,7 +6,7 @@ from  keras.models import Sequential
 from  keras.layers import Dense, GlobalAveragePooling2D, Dropout
 from  keras.optimizers import Adam
 from keras.models import save_model
-data_dir = r"C:\Users\kumar\Desktop\Projects\PYTHON CODES\sahit\Dataset"
+data_dir = r"your path to dataset"
 batch_size = 32
 img_height = 224
 img_width = 224
@@ -69,4 +69,5 @@ def predict_image(image_path):
 # Test Prediction
 path_input = input("Enter image path: ").strip('"')
 label, conf = predict_image(path_input)
+
 print(f"Predicted: {label} ({conf:.2f}% confidence)")
