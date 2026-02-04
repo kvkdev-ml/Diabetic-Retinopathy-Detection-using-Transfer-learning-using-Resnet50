@@ -11,8 +11,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from warnings import filterwarnings
 import tensorflow as tf
-model=load_model(filepath=r'C:\Users\kumar\Desktop\Projects\PYTHON CODES\sahit\model.h5')
-data_dir = r"C:\Users\kumar\Desktop\Projects\PYTHON CODES\sahit\Dataset"
+model=load_model(filepath=r'your path to dataset')
+data_dir = r"your path to dataset"
 batch_size = 32
 img_height = 224
 img_width = 224
@@ -77,4 +77,5 @@ def image_analysis():
         }
         return render_template('results.html',result=result_dict)
     return render_template('detection.html')
+
 app.run(debug=True,port=2023)
